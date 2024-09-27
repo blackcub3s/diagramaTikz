@@ -32,12 +32,12 @@
 	
 	
 	
-	% Definició de nodes
+	% Definiciï¿½ de nodes
 	
 	
 	\node (pas1) [trapeziSortida] {pas1\_Landing SignUp};
 	\node (joMateix) [nomUsuari, right of=pas1, xshift=8cm, yshift=1cm] {@blackcub3s};
-	\node (dec1) [decisionBackend, below of=pas1, yshift=-2cm,text width=1.75cm] {¿Existeix\\correu?}; 
+	\node (dec1) [decisionBackend, below of=pas1, yshift=-2cm,text width=1.75cm] {ï¿½Existeix\\correu?}; 
 	\node (invisible1) [nodeNoDimensio, left of=dec1, xshift=-2.5cm] {};
 	\node (pas2a) [trapeziSortida, below of=invisible1, xshift=0cm, yshift=0cm] {pas2A\_infoBenvinguda.html};
 	\node (pas3) [trapeziSortida, below of=pas2a] {pas3\_crearContrassenya};
@@ -81,7 +81,7 @@
 	\node (dummy11) [below of=pas2c, xshift=1cm, yshift=1.2cm] {(/login)};  
 
 
-	%nodes de comentari nota al "peu" (node de referència)
+	%nodes de comentari nota al "peu" (node de referï¿½ncia)
 	\node (asterisc1sortida)[aspecteAsterisc, right of = dec1, yshift=.9cm, xshift=-.9cm]{$i$};
 	\node (asterisc2sortida)[aspecteAsterisc, right of = dec2, yshift=.9cm, xshift=-.9cm]{$ii$};
 	
@@ -128,7 +128,7 @@
 	\draw [linia] (dec2) -- (invisible3) node[midway, yshift=0.3cm] {No};
 	\draw [arrow] (invisible3) -- (pas2b);
 	
-	\draw [linia] (dec2) -- (invisible4) node[midway, yshift=0.3cm] {S\'{i}};;
+	\draw [linia] (dec2) -- (invisible4) node[midway, yshift=0.3cm] {S\'{i}};
 	\draw [arrow] (invisible4) -- (pas2c);
 	
 	

@@ -1,6 +1,6 @@
 # Objetivo
 
-En este repositorio muestro el código para la creación del diagrama de la aplicación [miApp](https://github.com/blackcub3s/miApp).
+En este repositorio muestro el código LaTeX para la creación del diagrama de la aplicación [miApp](https://github.com/blackcub3s/miApp).
 
 # Semilla
 
@@ -26,9 +26,11 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 ![diagrama output no cargó](/img/diagramaOutput.png)
 
+# Compilar el codigo 
 
+Si el lector desea obtener el resultado de la compilación del código en [pdf](/diagramaTikzDefinitiu.pdf) por sí mismo puede instalarse MikTex en windows y el editor teXstudio para compilar el archivo .tex. 
 
-
+Alternativamente, si se quiere correr en linux, puede instalarse LaTeX también con la distribución texLive.
 
 
 
