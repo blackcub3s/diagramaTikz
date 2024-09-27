@@ -26,7 +26,7 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 ![diagrama output no cargó](/img/diagramaOutput.png)
 
-# ¡Qué instalar para compilar un archivo .tex?
+# ¿Qué instalar para compilar un archivo .tex?
 
 Si el lector desea obtener el resultado de la compilación del código .txt en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar i compilar archivos .tex. 
 
