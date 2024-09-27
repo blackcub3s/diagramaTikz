@@ -10,7 +10,7 @@ Inicialmente el diagrama lo dibujé a mano alzada:
 Se pasó la imagen de este diagrama a chatGPT (véase [prompt](/img/peticionSemilla.PNG)) que generó el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, genera una primera "semilla" de aspecto aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)), pero una primera aproximación al problema (con nodos y aristas ya definidos) que permite ahorrarse dos horas de trabajo perfectamente, incluso si se es un programador LaTeX avanzado
 
 
-# versión final (svg)
+# Versión final
 
 Se tomó [semillaGPT](/semillaGPT.tex) y se fue modificando, borrando lo innecesario y añadiendo:
 
@@ -26,11 +26,9 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 ![diagrama output no cargó](/img/diagramaOutput.png)
 
-# Compilar el codigo 
+# ¡Qué instalar para compilar un archivo .tex?
 
-Si el lector desea obtener el resultado de la compilación del código en [pdf](/diagramaTikzDefinitiu.pdf) por sí mismo puede instalarse MikTex en windows y el editor teXstudio para compilar el archivo .tex. 
-
-Alternativamente, si se quiere correr en linux, puede instalarse LaTeX también con la distribución texLive.
+Si el lector desea obtener el resultado de la compilación del código .txt en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar i compilar archivos .tex. 
 
 
 
