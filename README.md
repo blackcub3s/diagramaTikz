@@ -44,27 +44,26 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 # ¿Qué instalar para compilar un archivo .tex?
 
-Si el lector desea obtener el resultado de la compilación del código .txt en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar i compilar archivos .tex. 
+Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
 
-En linux la instalación la podéis hacer con:
-
+A continuación especifico estos pasos para hacer la instalación de latex en Linux (tanto del compilador como del editor):
 ```
     sudo apt update
     sudo apt install texlive
     sudo apt install texstudio
 ```
 
-Una vez instalado podemos compilar el archivo con pdflatex (Que pertenece a texstudio) para obtener su pdf:
+Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (que pertenece a texlive) para obtener así el pdf resultante con el siguiente ocmando:
 
 ```
     pdflatex diagramaTikzDefinitiu.tex
 ```
 
-Si se desea obtener la imagen en archivo svg (de modo que la calidad es máxima porque no es una archivo de imagen sino que se renderiza en tiempo real en el navegador) debemos instalar el paquete dvisvgm:
+Si se desea obtener la imagen del diagrama en lugar de un pdf, con la máxima calidad se puede tratar de obtener un archivo .svg. Este formato asefgura que la calidad sea máxima incluso al hacer zoom, dado que no es una archivo de imagen per se, sino que se renderiza en tiempo real en el navegador. Para poder generar el .svg del diagrama debemos instalar el paquete `dvisvgm` con el comando:
 
 `sudo apt install dvisvgm`
 
-Acto seguido ya podremos obtener el archivo .dvi desde el archivo .tex. Con ese .dvi obtendremos el .svg siguiendo estos comandos:
+Acto seguido ya podremos obtener un archivo .dvi desde el archivo .tex, que nos permitirá obtener a su vez el archivo .svg deseado. Lo haremos con estos dos comandos:
 
 
 ```
