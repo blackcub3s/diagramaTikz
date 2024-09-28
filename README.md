@@ -44,13 +44,24 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 # ¿Qué instalar para compilar un archivo .tex?
 
-Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
+Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux) -asegurándonos de que el paquete standalone esté instalado-. En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
 
 A continuación especifico estos pasos para hacer la instalación de latex en Linux (tanto del compilador como del editor):
 ```
+    # actualizamos el gestor de paquetes
     sudo apt update
+
+    # instala la distribución de latex con un compilador para linux
     sudo apt install texlive
+
+    #instala el paquete standalone
+    sudo apt install texlive-latex-extra
+
+    # instala el editor para poder visualizar el código latex
     sudo apt install texstudio
+
+
+    
 ```
 
 Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (paquete de texlive) para obtener así el pdf resultante con el siguiente comando:
