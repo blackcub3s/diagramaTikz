@@ -24,6 +24,7 @@ La petición del apartado anterior consiguió que la herramienta de openAI gener
   <img src="/img/compilacionSemillaCaptura.PNG" alt="diagrama gpt aberrante no cargó" />
 </div>
 
+
 >NOTA: Hace años que programo en latex y puedo asegurar que chat gpt no genera diagramas tikz de calidad si el programador no tiene conocimiento de lo que está haciendo, pero la cantidad de trabajo que es posible ahorrarse si uno ya conoce el lenguaje LaTeX es verdaderamente increible (este diagrama lo tuve listo en un par o tres de horas, mientras que sin chatGPT podría haberme demorado perfectamente una tarde entera -siendo optimista-).
 
 # Versión final
@@ -40,7 +41,7 @@ Se tomó [semillaGPT](/semillaGPT.tex) y se fue modificando, borrando lo inneces
 
 Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex](/diagramaTikzDefinitiu.tex) y después de compilarlo se generó un resultado de aspecto tipográfico cercano a la imagen original y plenamente satisfactorio. Se puede consultar [aquí](/diagramaTikzDefinitiu.pdf) y en la siguiente imagen:
 
-![diagrama output no cargó](/img/diagramaOutput.png)
+![diagrama svg no cargó](img/diagramaTikzDefinitiu.svg)
 
 # ¿Qué instalar para compilar un archivo .tex?
 
@@ -81,7 +82,8 @@ Acto seguido ya podremos obtener un archivo .dvi desde el archivo .tex, que nos 
 latex diagramaTikzDefinitiu.tex
 
 # creamos el archivo .svg buscado a partir del .dvi
-dvisvgm diagramaTikzDefinitiu.dvi   
+# (la opción --no-fonts es necesaria, en caso contrario la tipografía del gráfico cambia)
+dvisvgm --no-fonts diagramaTikzDefinitiu.dvi   
 ```
 
 
