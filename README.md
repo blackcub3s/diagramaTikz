@@ -8,16 +8,17 @@ Para llegar a ese diagrama se partió del diagrama original hecho a mano alzada 
 
 # Semilla
 
-Inicialmente el diagrama lo dibujé a mano alzada:
+Inicialmente el diagrama lo dibujé a mano alzada (vease diagrama original completo [aquí](/img/esquemaApp.jpeg)) y este se lo pasé a chat gpt acompañado de la siguiente prompt:
 
 ![diagrama no cargó](/img/peticionSemilla.PNG)
 
 # versión gpt
 
-Se pasó la imagen de este diagrama a chatGPT (véase [prompt](/img/peticionSemilla.PNG)) que generó el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, genera una primera "semilla" de aspecto verdaderamente aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)) pero cuyos nodos y aristas ya están definidas y permite ahorrarse dos horas de trabajo perfectamente dado que se convierte en una primera aproximación al problema:
+El resultado de la petición del apartado anterior a chatGPT generó el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, genera una primera "semilla" de aspecto verdaderamente aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)) pero cuyos nodos y aristas ya están definidos y permite ahorrarse dos o más horas de trabajo perfectamente dado que se convierte en una primera aproximación al problema:
 
 ![diagrama gpt aberrante no cargó](/img/compilacionSemillaCaptura.PNG)
 
+>NOTA: Hace años que programo en latex y puedo asegurar que chat gpt no genera diagramas tikz de calidad si el programador no tiene conocimiento de lo que está haciendo, pero la cantidad de trabajo que es posible ahorrarse si uno ya conoce el lenguaje LaTeX es verdaderamente increible.
 
 # Versión final
 
