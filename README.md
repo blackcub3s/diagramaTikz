@@ -41,7 +41,10 @@ Se tomó [semillaGPT](/semillaGPT.tex) y se fue modificando, borrando lo inneces
 
 Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex](/diagramaTikzDefinitiu.tex) y después de compilarlo se generó un resultado de aspecto tipográfico cercano a la imagen original y plenamente satisfactorio. Se puede consultar [aquí](/diagramaTikzDefinitiu.pdf) y en la siguiente imagen:
 
-![diagrama svg no cargó](img/diagramaTikzDefinitiu.svg)
+<div align="center">
+  <img src="/img/diagramaTikzDefinitiu.svg" alt="diagrama svg no cargó" />
+</div>
+
 
 # ¿Qué instalar para compilar un archivo .tex?
 
