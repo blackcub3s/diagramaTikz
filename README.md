@@ -46,9 +46,9 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 </div>
 
 
-# ¿Qué instalar para compilar un archivo .tex?
+# ¿Cómo compilar un archivo .tex y obtener el diagrama tikz con la máxima calidad?
 
-Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux) -asegurándonos de que el paquete standalone esté instalado-. En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
+Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf como este](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux) -asegurándonos de que el paquete standalone esté instalado-. En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
 
 A continuación especifico estos pasos para hacer la instalación de latex en Linux (tanto del compilador como del editor):
 ```
@@ -71,14 +71,13 @@ Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (paq
 pdflatex diagramaTikzDefinitiu.tex
 ```
 
-Si se desea obtener la imagen del diagrama en lugar de un pdf, con la máxima calidad se puede tratar de obtener un archivo .svg. Este formato asefgura que la calidad sea máxima incluso al hacer zoom, dado que no es una archivo de imagen per se, sino que se renderiza en tiempo real en el navegador. Para poder generar el .svg del diagrama debemos instalar el paquete `dvisvgm` con el comando:
+Si se desea obtener una la imagen del diagrama en lugar de el diagrama en formato pdf, pero mantener igualmente la máxima calidad lo que ha que hacer es conseguir exportar este diagrama como un .svg en lugar de un .png o .jpg. El formato .svg asegura, a diferencia de los otros dos formatos de imagen mencionados, que la calidad será máxima incluso al hacer zoom: .svg no es una archivo de imagen al uso, sino que se renderiza en tiempo real en el navegador. Para poder generar el .svg del diagrama debemos instalar el paquete `dvisvgm` con el comando:
 
 ```
 sudo apt install dvisvgm
 ```
 
 Acto seguido ya podremos obtener un archivo .dvi desde el archivo .tex, que nos permitirá obtener a su vez el archivo .svg deseado. Lo haremos con estos dos comandos:
-
 
 ```
 # creamos el archivo .dvi a partir del .tex
