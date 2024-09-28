@@ -14,9 +14,11 @@ Inicialmente el diagrama lo dibujé a mano alzada (véase diagrama original comp
 
 # versión gpt
 
-La petición del apartado anterior consiguió que la herramienta de openAI generase el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, produce una primera "semilla" de aspecto verdaderamente aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)) pero cuyos nodos y aristas ya están definidos:
+La petición del apartado anterior consiguió que la herramienta de openAI generase el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, produce una primera "semilla" de aspecto verdaderamente aberrante pero cuyos nodos y aristas ya están definidos:
 
-![diagrama gpt aberrante no cargó](/img/compilacionSemillaCaptura.PNG)
+<div align="center">
+  <img src="/img/compilacionSemillaCaptura.PNG" alt="diagrama gpt aberrante no cargó" />
+</div>
 
 >NOTA: Hace años que programo en latex y puedo asegurar que chat gpt no genera diagramas tikz de calidad si el programador no tiene conocimiento de lo que está haciendo, pero la cantidad de trabajo que es posible ahorrarse si uno ya conoce el lenguaje LaTeX es verdaderamente increible (este diagrama lo tuve listo en un par o tres de horas, mientras que sin chatGPT podría haberme demorado perfectamente una tarde entera -siendo optimista-).
 
