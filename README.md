@@ -46,8 +46,33 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 
 Si el lector desea obtener el resultado de la compilación del código .txt en un [pdf](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux). En ambos casos el editor teXstudio es idóneo para editar i compilar archivos .tex. 
 
+En linux la instalación la podéis hacer con:
+
+```
+    sudo apt update
+    sudo apt install texlive
+    sudo apt install texstudio
+```
+
+Una vez instalado podemos compilar el archivo con pdflatex (Que pertenece a texstudio) para obtener su pdf:
+
+```
+    pdflatex diagramaTikzDefinitiu.tex
+```
+
+Si se desea obtener la imagen en archivo svg (de modo que la calidad es máxima porque no es una archivo de imagen sino que se renderiza en tiempo real en el navegador) debemos instalar el paquete dvisvgm:
+
+`sudo apt install dvisvgm`
+
+Acto seguido ya podremos obtener el archivo .dvi desde el archivo .tex. Con ese .dvi obtendremos el .svg siguiendo estos comandos:
 
 
+```
+    # creamos el archivo .dvi a partir del .tex
+    latex diagramaTikzDefinitiu.tex
 
+    # creamos el archivo .svg buscado a partir del .dvi
+    dvisvgm diagramaTikzDefinitiu.dvi   
+```
 
 
