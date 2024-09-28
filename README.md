@@ -46,7 +46,7 @@ Después de este proceso se obtuvo el resultado final [diagramaTikzDefinitiu.tex
 </div>
 
 
-# ¿Cómo compilar un archivo .tex y obtener el diagrama tikz con la máxima calidad?
+# ¿Cómo compilar un archivo .tex y obtener el diagrama tikz con la máxima calidad -formato svg-?
 
 Si el lector desea obtener el resultado de la compilación del código .tex en un [pdf como este](/diagramaTikzDefinitiu.pdf), puede instalarse la distribución MikTex (si usa windows) o texLive (si usa linux) -asegurándonos de que el paquete standalone esté instalado-. En ambos casos el editor teXstudio es idóneo para editar y compilar archivos .tex. 
 
