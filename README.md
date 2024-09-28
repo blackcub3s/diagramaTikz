@@ -53,7 +53,7 @@ A continuación especifico estos pasos para hacer la instalación de latex en Li
     sudo apt install texstudio
 ```
 
-Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (que pertenece a texlive) para obtener así el pdf resultante con el siguiente ocmando:
+Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (paquete de texlive) para obtener así el pdf resultante con el siguiente comando:
 
 ```
     pdflatex diagramaTikzDefinitiu.tex
