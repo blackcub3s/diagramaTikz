@@ -61,7 +61,9 @@ Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (que
 
 Si se desea obtener la imagen del diagrama en lugar de un pdf, con la máxima calidad se puede tratar de obtener un archivo .svg. Este formato asefgura que la calidad sea máxima incluso al hacer zoom, dado que no es una archivo de imagen per se, sino que se renderiza en tiempo real en el navegador. Para poder generar el .svg del diagrama debemos instalar el paquete `dvisvgm` con el comando:
 
-```sudo apt install dvisvgm```
+```
+sudo apt install dvisvgm
+```
 
 Acto seguido ya podremos obtener un archivo .dvi desde el archivo .tex, que nos permitirá obtener a su vez el archivo .svg deseado. Lo haremos con estos dos comandos:
 
