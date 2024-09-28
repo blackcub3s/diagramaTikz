@@ -1,13 +1,22 @@
 # Objetivo
 
-En este repositorio muestro el código LaTeX para la creación del diagrama de la aplicación [miApp](https://github.com/blackcub3s/miApp).
+En este repositorio muestro el código en LaTeX necesario para la creación del diagrama de la aplicación de mi repositorio demostración "[miApp](https://github.com/blackcub3s/miApp)"" mediante la librería de latex Tikz ([https://tikz.dev/](https://tikz.dev/)).
+
+Para llegar a ese diagrama se partió del diagrama original hecho a mano alzada (ver apartado [Semilla](#Semilla)), pasando por el código que chat gpt generó del mismo (ver apartado [versión gpt](#versión-gpt)), y la modificación que hizo al código de chatGPT para llegar al código LaTeX que compila el diagrama de la versión final (ver apartado [versión final](#versión-final)).
+
+>NOTA: La librería Tikz permite dibujar diagramas con la elevada calidad tipográfica que nos proporciona LaTeX mediante la definición de una estructura de nodos y aristas (es decir, de grafo) y un sistema propio interno para generar posicionamientos entre nodos y estilos defiibles independientemente y aplicables a dichos nodos.
 
 # Semilla
 
 Inicialmente el diagrama lo dibujé a mano alzada:
 
+![diagrama no cargó](/img/peticionSemilla.PNG)
 
-Se pasó la imagen de este diagrama a chatGPT (véase [prompt](/img/peticionSemilla.PNG)) que generó el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, genera una primera "semilla" de aspecto aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)), pero una primera aproximación al problema (con nodos y aristas ya definidos) que permite ahorrarse dos horas de trabajo perfectamente, incluso si se es un programador LaTeX avanzado
+# versión gpt
+
+Se pasó la imagen de este diagrama a chatGPT (véase [prompt](/img/peticionSemilla.PNG)) que generó el código [semillaGPT](/semillaGPT.tex). Este código, al compilarse, genera una primera "semilla" de aspecto verdaderamente aberrante (véase [imagen](img/compilacionSemillaCaptura.PNG)) pero cuyos nodos y aristas ya están definidas y permite ahorrarse dos horas de trabajo perfectamente dado que se convierte en una primera aproximación al problema:
+
+![diagrama gpt aberrante no cargó](/img/compilacionSemillaCaptura.PNG)
 
 
 # Versión final
