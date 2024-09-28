@@ -2,13 +2,17 @@
 
 En este repositorio muestro el código en LaTeX necesario para la creación del diagrama de la aplicación de mi repositorio demostración "[miApp](https://github.com/blackcub3s/miApp)" mediante la librería de LaTeX Tikz ([https://tikz.dev/](https://tikz.dev/)).
 
-Para llegar a ese diagrama se partió del diagrama original hecho a mano alzada (ver apartado [Semilla](#Semilla)), pasando por el código que chat gpt generó del mismo (ver apartado [versión gpt](#versión-gpt)) hasta llegar yo hasta el código LaTeX que compila el diagrama de la versión final (ver apartado [versión final](#versión-final)).
+Para llegar a ese diagrama se partió del diagrama original hecho a mano alzada (ver apartado [Semilla](#Semilla)), pasando por el código que chat gpt generó del mismo (ver apartado [versión gpt](#versión-gpt)) hasta llegar hasta el código LaTeX que compila el diagrama de la versión final (ver apartado [versión final](#versión-final)).
 
 >NOTA: La librería Tikz permite dibujar diagramas con la elevada calidad tipográfica que nos proporciona LaTeX mediante la definición de una estructura de nodos y aristas (es decir, de grafo) y un sistema propio interno para generar posicionamientos entre nodos y estilos defiibles independientemente y aplicables a dichos nodos.
 
 # Semilla
 
-Inicialmente el diagrama lo dibujé a mano alzada (véase diagrama original completo [aquí](/img/esquemaApp.jpeg)) y le pasé a chatGPT una fotografía del mismo acompañada de la siguiente prompt:
+Inicialmente el diagrama lo dibujé a mano alzada:
+
+![aquí](/img/esquemaApp.jpeg)
+
+Luego le pasé a chatGPT una fotografía del mismo acompañada de la siguiente prompt:
 
 ![diagrama no cargó](/img/peticionSemilla.PNG)
 
