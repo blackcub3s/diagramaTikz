@@ -48,26 +48,23 @@ Si el lector desea obtener el resultado de la compilación del código .tex en u
 
 A continuación especifico estos pasos para hacer la instalación de latex en Linux (tanto del compilador como del editor):
 ```
-    # actualizamos el gestor de paquetes
-    sudo apt update
+# actualizamos el gestor de paquetes
+sudo apt update
 
-    # instala la distribución de latex con un compilador para linux
-    sudo apt install texlive
+# instala la distribución de latex con un compilador para linux
+sudo apt install texlive
 
-    #instala el paquete standalone
-    sudo apt install texlive-latex-extra
+#instala el paquete standalone
+sudo apt install texlive-latex-extra
 
-    # instala el editor para poder visualizar el código latex
-    sudo apt install texstudio
-
-
-    
+# instala el editor para poder visualizar el código latex
+sudo apt install texstudio
 ```
 
 Una vez instalado el compilador ya podemos compilar el archivo con pdflatex (paquete de texlive) para obtener así el pdf resultante con el siguiente comando:
 
 ```
-    pdflatex diagramaTikzDefinitiu.tex
+pdflatex diagramaTikzDefinitiu.tex
 ```
 
 Si se desea obtener la imagen del diagrama en lugar de un pdf, con la máxima calidad se puede tratar de obtener un archivo .svg. Este formato asefgura que la calidad sea máxima incluso al hacer zoom, dado que no es una archivo de imagen per se, sino que se renderiza en tiempo real en el navegador. Para poder generar el .svg del diagrama debemos instalar el paquete `dvisvgm` con el comando:
@@ -80,11 +77,11 @@ Acto seguido ya podremos obtener un archivo .dvi desde el archivo .tex, que nos 
 
 
 ```
-    # creamos el archivo .dvi a partir del .tex
-    latex diagramaTikzDefinitiu.tex
+# creamos el archivo .dvi a partir del .tex
+latex diagramaTikzDefinitiu.tex
 
-    # creamos el archivo .svg buscado a partir del .dvi
-    dvisvgm diagramaTikzDefinitiu.dvi   
+# creamos el archivo .svg buscado a partir del .dvi
+dvisvgm diagramaTikzDefinitiu.dvi   
 ```
 
 
